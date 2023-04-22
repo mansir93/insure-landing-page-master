@@ -15,13 +15,46 @@
 .navbar-collapse .nav-link{
     text-transform: uppercase;
 }
-.navbar-nav > :last-child{
+.navbar-collapse .navbar-nav > :last-child{
     border: 2px solid black;
 }
 
 /* ***** HOME ******** */
-.container-fluid{
+#intro .container-fluid{
     color: white;
     height: 400px;
     background: hsl(256, 26%, 20%);
+}
+.container-fluid .container{
+    padding-top: 50px;
+}
+.col{
+    padding: 20px;
+}
+.btn{
+    border: 2px solid white;
+    color: white;
+}
+.btn:hover{
+    color: black;
+    background: white;
+}
+.col img{
+    width: 400px;
+    height: 450px;
+}
+
+#work .container{
+    height: 100px;
+    background: hsl(256, 26%, 20%);;
+}
+
+#footer .container-fluid{
+    background: hsl(0, 0%, 98%);
+}
+.footer-icons{
+    display: flex;
+}
+.icons-container{
+    margin-left: 850px;
 }
