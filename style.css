@@ -77,11 +77,8 @@
   background: hsl(0, 0%, 98%);
 }
 .footer-icons {
-  display: flex;
+  float: right;
 }
 .icons-container {
-  margin-left: 850px;
-}
-.divider{
-    max-width: 1140px;
+  /* margin-left: 850px; */
 }
