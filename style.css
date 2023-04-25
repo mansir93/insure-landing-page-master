@@ -1,60 +1,87 @@
-
-*{
-    box-sizing: border-box;
-    /* font-size: 16px !important; */
+* {
+  box-sizing: border-box;
+  /* font-size: 16px !important; */
 }
 
 /* ******* NAVBAR ******** */
 
-.navbar{
-    background: hsl(0, 0%, 98%);
+.navbar {
+  background: hsl(0, 0%, 98%);
 }
-.navbar-collapse{
-    flex-grow: 0;
+.navbar-collapse {
+  flex-grow: 0;
 }
-.navbar-collapse .nav-link{
-    text-transform: uppercase;
+.navbar-collapse .nav-link {
+  text-transform: uppercase;
 }
-.navbar-collapse .navbar-nav > :last-child{
-    border: 2px solid black;
+.navbar-collapse .navbar-nav > :last-child a {
+  border: 2px solid black;
 }
 
 /* ***** HOME ******** */
-#intro .container-fluid{
-    color: white;
-    height: 400px;
-    background: hsl(256, 26%, 20%);
+#intro .container-fluid {
+  position: relative;
+  color: white;
+  height: 400px;
+  background: hsl(256, 26%, 20%);
 }
-.container-fluid .container{
-    padding-top: 50px;
+.container-fluid .container {
+  padding-top: 50px;
 }
-.col{
-    padding: 20px;
+.col {
 }
-.btn{
-    border: 2px solid white;
-    color: white;
+.btn {
+  border: 2px solid white;
+  color: white;
 }
-.btn:hover{
-    color: black;
-    background: white;
+.btn:hover {
+  color: black;
+  background: white;
 }
-.col img{
-    width: 400px;
-    height: 450px;
+.col img {
+  width: 400px;
+  height: 450px;
+}
+/* ******** SECOND SECTION ******** */
+
+#second {
+  margin: 200px 0;
+}
+.card {
+  border: none;
+}
+.card-icons {
+  width: 100px;
+  height: 100px;
+  margin: 50px 0;
 }
 
-#work .container{
-    height: 100px;
-    background: hsl(256, 26%, 20%);;
+/* ********* WORK SECTION *********** */
+#work .container {
+    color: white;
+  height: 200px;
+  background: hsl(256, 26%, 20%);
 }
+#work .container .row{
 
-#footer .container-fluid{
-    background: hsl(0, 0%, 98%);
 }
-.footer-icons{
+#work .container .row .col{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
 }
-.icons-container{
-    margin-left: 850px;
+
+/* ******** FOOTER SECTION ********** */
+#footer .container-fluid {
+  background: hsl(0, 0%, 98%);
+}
+.footer-icons {
+  display: flex;
+}
+.icons-container {
+  margin-left: 850px;
+}
+.divider{
+    max-width: 1140px;
 }
